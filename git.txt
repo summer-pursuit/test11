@@ -1,0 +1,32 @@
+1.先fork
+获取https://github.com/
+
+2.克隆到本地仓库
+git clone https://github.com/
+
+3.进入目录下创建分支
+git checkout -b new_branch
+查看当前分支
+git branch
+
+4.为仓库创建一个新的远程，该上游仓库是复刻的原始仓库
+git remote add upstream 
+
+5.此时可以修改本地仓库的内容
+
+6.提交文件到暂存区
+git add . 提交所有文件
+git add file1 file2 提交指定文件
+
+7.由暂存区提交到仓库区
+git commit -S -m "进行测试完成！话语"      
+
+8.提交当前分支到远程仓库
+git push -u origin new_branch
+
+# 下载远程仓库的所有变动
+git fetch https:/
+或者git fetch --all
+更新仓库
+git pull origin main
+git branch查看当前分支
